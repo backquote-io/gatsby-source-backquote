@@ -29,7 +29,9 @@ exports.sourceNodes = (
   const token = configOptions.token
   const blogId = configOptions.blogId
 
-  const apiUrl = `https://api.backquote.io/expose/v1/${blogId}/posts`
+  const apiBaseURL = configOptions.apiBaseURL ?  configOptions.apiBaseURL : 'https://api.backquote.io/expose'
+
+  const apiUrl = `${apiBaseURL}/v1/${blogId}/posts`
 
   const getPosts = async function (pageNo = 1) {
     let actualUrl = apiUrl + `?page=${pageNo}`;
