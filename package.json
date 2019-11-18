@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jtogrul/gatsby-source-backquote.git"
+    "url": "git+https://github.com/backquote-io/gatsby-source-backquote.git"
   },
   "keywords": [
     "backquote",
@@ -23,9 +23,9 @@
   "author": "Toghrul Jafarli <ceferlitogrul@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jtogrul/gatsby-source-backquote/issues"
+    "url": "https://github.com/backquote-io/gatsby-source-backquote/issues"
   },
-  "homepage": "https://github.com/jtogrul/gatsby-source-backquote#readme",
+  "homepage": "https://github.com/backquote-io/gatsby-source-backquote#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
   }
